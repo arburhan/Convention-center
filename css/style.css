@@ -1,3 +1,13 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@600&display=swap');
+
+/* common sections */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
 .button{
     font-weight: 600;
     text-decoration: none;
@@ -11,4 +21,29 @@
 }
 .button:hover{
     color: #0243f586;
+}
+
+.fa-check-circle{
+    color: #0898ebad;
+}
+/* packages section */
+
+.popular {
+   border-radius:20px;
+   position: relative;
+   -webkit-border-radius:20px;
+   -moz-border-radius:20px;
+   -ms-border-radius:20px;
+   -o-border-radius:20px;
+}
+.package-hot{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    border-radius: 22px;
+    font-size: 10px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
 }
