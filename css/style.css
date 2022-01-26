@@ -5,6 +5,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    margin-bottom: 100px;
+}
 p{
     font-family: 'Montserrat', sans-serif;
 }
