@@ -14,16 +14,16 @@ p{
 .button{
     font-weight: 600;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     padding: 8px 20px;
     font-size: 18px;
     border-radius: 8px;
-    /* background: #e8e8e8; */
-    background-color: #35BDD0;
-    border: 1px solid #35BDD0;
+    background-color: #e8e8e8;
+    border: 1px solid #35bed052;
 }
 .button:hover{
-    color: #0243f586;
+    background-color: rgba(0, 217, 255, 0.692);
+    color: white;
 }
 
 .fa-check-circle{
@@ -51,11 +51,7 @@ p{
     -o-border-radius: 22px;
 }
 
-/* toast */
-/* .toast-parent{
-    position: relative;
+/* Clients area */
+.card-image img{
+    width: 100px;
 }
-.toast{
-    position: absolute;
-
-} */
