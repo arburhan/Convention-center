@@ -27,11 +27,11 @@ p{
 }
 
 .fa-check-circle{
-    color: #0898ebad;
+    color: #0898eb;
 }
 /* packages section */
 
-.popular {
+.focus-pack {
    border-radius:20px;
    position: relative;
    -webkit-border-radius:20px;
@@ -49,6 +49,9 @@ p{
     -moz-border-radius: 22px;
     -ms-border-radius: 22px;
     -o-border-radius: 22px;
+}
+.button-plan{
+    background-color:rgba(211, 43, 211, 0.801);
 }
 
 /* Clients area */
